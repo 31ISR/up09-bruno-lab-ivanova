@@ -1,0 +1,21 @@
+meta {
+  name: Itemcol
+  type: http
+  seq: 7
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/items
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Подушка",
+    "description": "перьевая подушка",
+    "price": 500,
+    "imageUrl": "https://example.com/podushka.jpg"
+  }
+  
+}
